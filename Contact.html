@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Contacts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+    .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .jumbotron{
+      padding-left:1px;
+      background-color: #aaa;
+      padding: 1px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .container-fluid {
+padding-right: 10px;
+padding-left: 15px;
+
+}
+body{
+background-color:#eee;
+}
+  </style>
+  <body>
+  
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">PRATHIMA AVULA</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><img src="IMG_4111.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:30px; margin-top: 9px; margin-right: 8px;"></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Qualifications.html">Qualifications</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li class="active"><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+          <h1 align="left">Contact Information</h1>  
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-12">
+
+      <ul style="font-size: 30px;">
+          <li>Github Profile :
+              <a href="https://github.com/prathima-30"target="_blank"><i class="fa fa-github"></i></a>
+          </li>
+          <li>LinkedIn Profile :
+              <a href="https://www.linkedin.com/in/prathima-a-b838921b7/"target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          </li>
+          <li>HackerRank Profile :
+              <a href="https://www.hackerrank.com/prathima_30"target="_blank">
+                <span class="iconify" data-icon="simple-icons:hackerrank" data-inline="false"></span></a> 
+          </li>
+          <li>Email Id : <i class="fa fa-envelope"></i>
+            <p style="font-size: 25px;">prathima.avula@msitprogram.net</p></li>
+          <li>Contact Number : <i class="fa fa-phone"></i>
+          <p style="font-size: 25px;">7993291982</p></li>
+      </ul>  
+    </div>
+</div>
+</div>
+<div class="container-fluid" style="padding-left: 30px;">
+  <div class="row">
+   <div class="col-md">
+<h1>Feedback Form</h1>  
+<p style="font-size: 20px;">Please feel free to fill the below google form, if you have any concerns</p>
+<div class="my-custom-scrollbar my-custom-scrollbar-primary">
+  <div class="col-md-6 col-sm-12">
+    <form action="/action_page.php">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="response">Response</label>
+      <textarea type="text" class="form-control" placeholder="Enter Response" name="Feedback"></textarea>
+    </div>
+    
+    
+    <div class="container">
+  
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+    
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Note</h4>
+            </div>
+            <div class="modal-body">
+              <p>Thanks for submitting your Response</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </form>
+</div>
+</div>
+</div>
+    </body>
+</html>
